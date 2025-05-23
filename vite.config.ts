@@ -16,6 +16,7 @@ export default defineConfig({
       '~/': `${path.resolve(__dirname, 'src')}/`,
     },
   },
+  base: '/xxxxxx',
   plugins: [
     VueMacros({
       defineOptions: false,
